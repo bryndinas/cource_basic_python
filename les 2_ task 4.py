@@ -1,4 +1,4 @@
 words = input().split()
-index = 0
-for word in enumerate(words,1):
-    print(word [0:10])
+for index, word in enumerate (words):
+    print(index+1, word [:10])
+
