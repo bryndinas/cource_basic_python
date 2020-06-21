@@ -3,10 +3,10 @@ def may_func ():
         name = input('Введите имя \n')
         surname = input('Введитя фамилию \n')
         city = input('Введитя город \n')
-        yer = int(input('Введитя год рождения \n'))
+        year = int(input('Введитя год рождения \n'))
         email = int(input('Введитя email \n'))
         phon = int(input('Введитя телефон \n'))
-        res = ("{},{},{},{},{},{}".format(name,surname,city,yer,email,phon))
+        res = ("{},{},{},{},{},{}".format(name,surname,city,year,email,phon))
         print(res)
     except ValueError:
             print('Введите цифры')
