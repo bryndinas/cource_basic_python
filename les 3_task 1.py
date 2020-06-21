@@ -6,7 +6,7 @@ def may_func ():
         return
     else:
         if val_1 or val_2 == 0:
-           print('На 0 делить нельзя')
+           print('Деление на 0')
     finally:
         res = val_1 / val_2
     return res
